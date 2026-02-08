@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@deno/mod.js';
+import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@v0.1.1-deno/mod.js';
 ```
 
 #### byteOrders()
@@ -91,7 +91,7 @@ The output array contains the following orders:
 
 ```javascript
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@deno/mod.js';
+import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@v0.1.1-deno/mod.js';
 
 var isByteOrder = contains( byteOrders() );
 
