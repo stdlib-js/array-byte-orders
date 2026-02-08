@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-byte-orders/tags). For example,
+
+```javascript
 import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@v0.1.1-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ The output array contains the following orders:
 <script type="module">
 
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@v0.1.1-esm/index.mjs';
+import byteOrders from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-byte-orders@esm/index.mjs';
 
 var isByteOrder = contains( byteOrders() );
 
